@@ -1,0 +1,9 @@
+{"id":"t00007","request":"change the exchange rate for CHF to EUR for today, the current one is wrong as hell","label":"relevant","category":"clear_relevant"}
+{"id":"t00008","request":"pull up the equipment list for site Bremen and tell me which balers are active","label":"relevant","category":"clear_relevant"}
+{"id":"t00009","request":"create a dropshipping order for 12 tons of aluminium scrap to the Rotterdam yard","label":"relevant","category":"clear_relevant"}
+{"id":"t00010","request":"edit customer Meier Recycling and replace the old phone number with the new one","label":"relevant","category":"clear_relevant"}
+{"id":"t00011","request":"list all contracts that are about to expire next month, i need that stuff now","label":"relevant","category":"clear_relevant"}
+{"id":"t00012","request":"make a new weight ticket entry for inbound load 88421, gross weight 18340 kg","label":"relevant","category":"clear_relevant"}
+{"id":"t00013","request":"show me every billing position linked to order 2026-0411","label":"relevant","category":"clear_relevant"}
+{"id":"t00014","request":"assign container CX-55 to customer Hansa Rohstoffe and mark it as deployed","label":"relevant","category":"clear_relevant"}
+{"id":"t00015","request":"search all customers with overdue documents, this damn list should exist somewhere","label":"relevant","category":"clear_relevant"}

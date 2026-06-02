@@ -1,0 +1,15 @@
+{"id":"t00001","request":"can you add a new customer called GreenMetal GmbH based in Hamburg, i need them in the system for a new contract","label":"relevant","category":"clear_relevant"}
+{"id":"t00002","request":"please look up the last 5 weight tickets for customer NordSchrott, i need to check the delivered tonnage","label":"relevant","category":"clear_relevant"}
+{"id":"t00003","request":"create a new contract for RecycleWest AG for mixed scrap pickup starting next month","label":"relevant","category":"clear_relevant"}
+{"id":"t00004","request":"can you update the contact person on customer EcoSteel to Martin Keller, the old one is no longer there","label":"relevant","category":"clear_relevant"}
+{"id":"t00005","request":"show me all open delivery orders for organisation RheinLogistik, i need to see whats still pending","label":"relevant","category":"clear_relevant"}
+{"id":"t00006","request":"please add a new sort called copper cable low grade and link it to the non ferrous category","label":"relevant","category":"clear_relevant"}
+{"id":"t00007","request":"can you check which exchange rate is stored for CHF today, i think something looks off","label":"relevant","category":"clear_relevant"}
+{"id":"t00008","request":"create a new equipment record for container C-284, 30 cubic meters, assigned to customer AltMetall Süd","label":"relevant","category":"clear_relevant"}
+{"id":"t00009","request":"i need all contracts that expire this quarter for customer group industrial suppliers, can you pull them up","label":"relevant","category":"clear_relevant"}
+{"id":"t00010","request":"please change the pickup address for customer StahlRest GmbH to Hafenstrasse 18, the old one is outdated","label":"relevant","category":"clear_relevant"}
+{"id":"t00011","request":"can you find the billing record connected to weight ticket WT-2026-00481, i need to compare the quantities","label":"relevant","category":"clear_relevant"}
+{"id":"t00012","request":"add a new organisation named Baltic Recovery BV and set the default currency to EUR","label":"relevant","category":"clear_relevant"}
+{"id":"t00013","request":"show me all equipment currently marked as on customer site for NordCargo Recycling","label":"relevant","category":"clear_relevant"}
+{"id":"t00014","request":"please correct the gross weight on ticket WT-2026-00812, it should be 18460 not 19460","label":"relevant","category":"clear_relevant"}
+{"id":"t00015","request":"can you create a new dropshipping order for customer Urban Scrap Solutions with delivery next friday","label":"relevant","category":"clear_relevant"}
