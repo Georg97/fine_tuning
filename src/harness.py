@@ -8,16 +8,19 @@ Usage:
 from __future__ import annotations
 
 import argparse
+from datetime import datetime
 import json
 import re
 import sys
 import time
 from dataclasses import dataclass
 from pathlib import Path
+from dotenv import load_dotenv
 from vllm import LLM, SamplingParams
 
 _llm: LLM | None = None
 
+load_dotenv()
 # ---- Data structures -------------------------------------------------------
 
 
@@ -90,7 +93,12 @@ def parse_label(raw_output: str) -> str | None:
 def call_model(system_prompt: str, user_message: str, model: str) -> str:
     global _llm
     if _llm is None:
-        _llm = LLM(model=model, dtype="bfloat16")
+        _llm = LLM(
+            model=model, 
+            dtype="bfloat16",
+            gpu_memory_utilization=0.90,
+            max_model_len=1024
+        )
     sampling = SamplingParams(
         temperature=0.0,    # classification: greedy
         max_tokens=8,       # we only need one word
@@ -118,7 +126,8 @@ def score_example(
         example_id=example.id,
         request=example.request,
         expected=example.label,
-        predicted=predicted if predicted is not None else "<unparseable>",
+        # predicted=predicted if predicted is not None else "<unparseable>",
+        predicted=raw_output,
         raw_output=raw_output,
         correct=(predicted == example.label),
         latency_ms=latency_ms,
@@ -223,8 +232,10 @@ def main() -> int:
     summary = summarize(results)
     print_report(args.model, results, summary)
 
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     # Persist raw results to a JSON file for later comparison
-    out_path = Path(f"out_{args.model.replace('/', '_')}.json")
+    out_path = Path(".output") / f"eval_{args.model.replace('/', '_')}_{timestamp}.json"
+    out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text(
         json.dumps(
             {

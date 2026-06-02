@@ -1,0 +1,60 @@
+{"id": "ex01", "request": "can you create a customer called x", "label": "relevant", "category": "clear_relevant"}
+{"id": "ex02", "request": "write me a poem about socks", "label": "junk", "category": "clear_junk"}
+{"id": "ex03", "request": "what is the capital of france", "label": "junk", "category": "clear_junk"}
+{"id": "ex04", "request": "can you check the inventory status of sku 12345", "label": "relevant", "category": "clear_relevant"}
+{"id": "ex05", "request": "what does the status 'pending approval' mean in the inventory module", "label": "relevant", "category": "gray_zone"}
+{"id": "ex06", "request": "tell me a joke", "label": "junk", "category": "clear_junk"}
+{"id": "ex07", "request": "can you help me understand why my last order was delayed", "label": "relevant", "category": "clear_relevant"}
+{"id": "ex08", "request": "what is an erp system", "label": "relevant", "category": "gray_zone"}
+{"id": "ex09", "request": "create a purchase order for vendor acme with line item widget x qty 100", "label": "relevant", "category": "clear_relevant"}
+{"id": "ex10", "request": "explain quantum entanglement to me", "label": "junk", "category": "clear_junk"}
+{"id": "ex11", "request": "how do I add a new user to our company account", "label": "relevant", "category": "gray_zone"}
+{"id": "ex12", "request": "summarize the meeting notes from yesterday's standup", "label": "junk", "category": "clear_junk"}
+{"id": "ex13", "request": "what's the difference between a purchase order and a sales order", "label": "relevant", "category": "gray_zone"}
+{"id": "ex14", "request": "translate 'hello world' to german", "label": "junk", "category": "clear_junk"}
+{"id": "ex15", "request": "show me all open invoices for customer acme corp", "label": "relevant", "category": "clear_relevant"}
+{"id": "ex16", "request": "write a python script to parse csv files", "label": "junk", "category": "clear_junk"}
+{"id": "ex17", "request": "can you update the shipping address for order 12345 to my new address", "label": "relevant", "category": "clear_relevant"}
+{"id": "ex18", "request": "what's the meaning of life", "label": "junk", "category": "clear_junk"}
+{"id": "ex19", "request": "list all vendors in the apparel category", "label": "relevant", "category": "clear_relevant"}
+{"id": "ex20", "request": "explain the difference between fifo and lifo inventory valuation", "label": "relevant", "category": "gray_zone"}
+{"id": "ex21", "request": "give me recipe ideas for dinner tonight", "label": "junk", "category": "clear_junk"}
+{"id": "ex22", "request": "what fields are required when creating a new item in inventory", "label": "relevant", "category": "gray_zone"}
+{"id": "ex23", "request": "delete customer record 9876", "label": "relevant", "category": "clear_relevant"}
+{"id": "ex24", "request": "help me write a marketing email for our new product launch", "label": "junk", "category": "clear_junk"}
+{"id": "ex25", "request": "what's our current accounts receivable balance", "label": "relevant", "category": "clear_relevant"}
+{"id": "ex26", "request": "tell me about the history of the roman empire", "label": "junk", "category": "clear_junk"}
+{"id": "ex27", "request": "can you add 50 units of sku abc to warehouse wh-02", "label": "relevant", "category": "clear_relevant"}
+{"id": "ex28", "request": "what does the 'on hold' status mean for a purchase order", "label": "relevant", "category": "gray_zone"}
+{"id": "ex29", "request": "generate a list of 20 random numbers between 1 and 100", "label": "junk", "category": "clear_junk"}
+{"id": "ex30", "request": "who is the current ceo of microsoft", "label": "junk", "category": "clear_junk"}
+{"id": "ex31", "request": "can you check if vendor acme is approved for net-60 terms", "label": "relevant", "category": "clear_relevant"}
+{"id": "ex32", "request": "write me a cover letter for a software engineering position", "label": "junk", "category": "clear_junk"}
+{"id": "ex33", "request": "what's the average lead time for our top 5 suppliers", "label": "relevant", "category": "clear_relevant"}
+{"id": "ex34", "request": "how does our tax calculation work for international orders", "label": "relevant", "category": "gray_zone"}
+{"id": "ex35", "request": "tell me a fun fact about penguins", "label": "junk", "category": "clear_junk"}
+{"id": "ex36", "request": "can you merge customer records 1234 and 5678", "label": "relevant", "category": "clear_relevant"}
+{"id": "ex37", "request": "what's a good book to read on vacation", "label": "junk", "category": "clear_junk"}
+{"id": "ex38", "request": "explain what a backorder is in plain english", "label": "relevant", "category": "gray_zone"}
+{"id": "ex39", "request": "schedule a meeting with the sales team for next friday", "label": "junk", "category": "gray_zone"}
+{"id": "ex40", "request": "can you show me the audit log for changes to invoice 4567", "label": "relevant", "category": "clear_relevant"}
+{"id": "ex41", "request": "what's the weather in tokyo", "label": "junk", "category": "clear_junk"}
+{"id": "ex42", "request": "how do I reset another user's password", "label": "relevant", "category": "gray_zone"}
+{"id": "ex43", "request": "draft a response to a customer complaint about a delayed shipment", "label": "relevant", "category": "gray_zone"}
+{"id": "ex44", "request": "what reports are available for tracking inventory turnover", "label": "relevant", "category": "gray_zone"}
+{"id": "ex45", "request": "convert 100 usd to euros", "label": "junk", "category": "clear_junk"}
+{"id": "ex46", "request": "show me all items below the reorder point", "label": "relevant", "category": "clear_relevant"}
+{"id": "ex47", "request": "can you recommend a good restaurant in paris", "label": "junk", "category": "clear_junk"}
+{"id": "ex48", "request": "what's the depreciation method used for our fixed assets", "label": "relevant", "category": "gray_zone"}
+{"id": "ex49", "request": "write a sql query to find duplicate customer emails", "label": "junk", "category": "gray_zone"}
+{"id": "ex50", "request": "create a sales quote for prospect beta llc with line items from quote 8888", "label": "relevant", "category": "clear_relevant"}
+{"id": "ex51", "request": "give me a brief overview of the company", "label": "junk", "category": "gray_zone"}
+{"id": "ex52", "request": "approve purchase order 2345", "label": "relevant", "category": "clear_relevant"}
+{"id": "ex53", "request": "what's 15% tip on a $85 dinner", "label": "junk", "category": "clear_junk"}
+{"id": "ex54", "request": "how do I export customer data to a csv file", "label": "relevant", "category": "gray_zone"}
+{"id": "ex55", "request": "write a haiku about database migrations", "label": "junk", "category": "clear_junk"}
+{"id": "ex56", "request": "can you generate a picking list for order 7890", "label": "relevant", "category": "clear_relevant"}
+{"id": "ex57", "request": "what's the company's policy on remote work", "label": "junk", "category": "clear_junk"}
+{"id": "ex58", "request": "list all backordered items for the apparel department", "label": "relevant", "category": "clear_relevant"}
+{"id": "ex59", "request": "how tall is mount everest", "label": "junk", "category": "clear_junk"}
+{"id": "ex60", "request": "what does the 'partial shipment' flag indicate on a sales order", "label": "relevant", "category": "gray_zone"}

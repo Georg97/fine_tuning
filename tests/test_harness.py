@@ -4,6 +4,7 @@ intelligence. They should pass regardless of which LLM you use.
 """
 
 import json
+from dotenv import load_dotenv
 import pytest
 from pathlib import Path
 
@@ -16,6 +17,7 @@ from src.harness import (
 )
 
 
+load_dotenv()
 # ---- Corpus loading --------------------------------------------------------
 
 
